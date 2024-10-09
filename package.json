@@ -4,7 +4,9 @@
   "description": "In this exercise, you will have to create a layout clone of another one given as exact as you can with resources provided",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass styles.scss styles.css",
+    "watch-css": "sass --watch styles.scss:styles.css"
   },
   "keywords": [],
   "author": "",
