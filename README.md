@@ -14,7 +14,7 @@ In this exercise, you will have to create a layout clone of another one given as
       </td>
       <td>
         <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="CSS3" width="35" height="35"/></a><br>BootS
-      </td><img width="414" alt="Captura de pantalla 2024-10-09 a las 11 16 51" src="https://github.com/user-attachments/assets/4aaa253e-7d02-4453-82a9-62ab4a40fa04">
+      </td>
 
   </tr>
 </table>
