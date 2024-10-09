@@ -84,13 +84,14 @@ N/A
   </tr>
   <tr>
     <td align="center">
-      <br><a href="#"><img src="" alt="WebView" width="200" /></a><br>Web computer device view<br>
+      <br><a href="#"><img src="https://github.com/user-attachments/assets/e730f6f6-3157-41ac-9017-439d17ce6dba" alt="LandinPage" width="200" /></a><br>Exercise 1<br>
       <a href="#"><img src="" alt="MobileView" width="200" /></a><br>Tablet device view<br>
       <a href="#"><img src="" alt="MobileView" width="200" /></a><br>button animation<br><br>
     </td>  
     <td align="center">
       <a href="#"><img src="" alt="Result" width="600" /></a>
     </td>
+
   </tr>
 </table>
 </div>
