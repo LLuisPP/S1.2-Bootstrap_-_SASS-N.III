@@ -86,14 +86,13 @@ N/A
   <tr>
     <td align="center">
       <br><a href="#"><img src="https://github.com/user-attachments/assets/e730f6f6-3157-41ac-9017-439d17ce6dba" alt="landinpage" width="200" /></a><br>Exercise 1 layout<br>
-      <a href="#"><img src="https://github.com/user-attachments/assets/337cb4cb-31bd-4cab-aa26-7c687ebb26b5" alt="features" width="200" /></a><br>Exercise 2 features<br>
+      <a href="#"><img src="https://github.com/user-attachments/assets/2bdfbb3b-7d90-472b-be8c-b93e86196f45" alt="features" width="200" /></a><br>Exercise 2 features<br>
       <a href="#"><img src="https://github.com/user-attachments/assets/4aaa253e-7d02-4453-82a9-62ab4a40fa04" alt="downloads" width="200" /></a><br>Exercise 3 downloads<br>
       <a href="#"><img src="https://github.com/user-attachments/assets/faa28372-8abc-4a0a-8cd4-c7a36e1913d8" alt="downloads" width="200" /></a><br>Exercise 3 downloads<br><br>
     </td>  
     <td align="center">
       <a href="#"><img src="" alt="Result" width="600" /></a>
     </td>
-
   </tr>
 </table>
 </div>
