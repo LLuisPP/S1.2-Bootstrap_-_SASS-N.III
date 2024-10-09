@@ -1,5 +1,90 @@
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
-// .h1 {
-//     font-weight: 300;
-// }
+$font: black;
+$plain: white;
+$primary: rgb(83, 102, 223);
+$secondary: rgb(240,87,90);
+
+html {
+    max-width: 1550px;
+}
+
+.container {
+    margin: 10px;
+    border: 10px solid green;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    border: 10px solid green;
+}
+
+.nav-logo {
+    border: 10px solid $plain;
+}
+
+@mixin button ($back: color, $color: background-color) {
+    background-color: $back;
+    color: color;
+    border-color: black;
+    border: 2px solid $background-color;
+    border-radius:7px;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: 1px;
+    align-items: end;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.button {
+    @include button();
+}
+
+.login-button {
+    @include button($back: $secondary);
+    border: 2px solid $secondary;
+    color: $plain;
+}
+
+.detail-button {
+    @include button($back: $primary);
+}
+
+.header {
+    font-size: 44px;
+    font-weight:600;
+}
+
+
+/*************** floating figure **************/
+.img {
+    position: relative;
+    display:inline-block;
+
+    img {
+        display: block;
+        position: relative;
+        z-index: 1;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        border-radius: 38% 0 0 38%;
+        width: 70%;
+        height: 75%;
+        background-color: $primary;
+        z-index: 0;
+        border: 70%;
+    }
+}
