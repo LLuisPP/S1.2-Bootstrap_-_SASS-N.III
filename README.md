@@ -14,9 +14,11 @@ In this exercise, you will have to create a layout clone of another one given as
       </td>
       <td>
         <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="CSS3" width="35" height="35"/></a><br>BootS
-      </td>
+      </td><img width="414" alt="Captura de pantalla 2024-10-09 a las 11 16 51" src="https://github.com/user-attachments/assets/4aaa253e-7d02-4453-82a9-62ab4a40fa04">
+
   </tr>
 </table>
+
 </div>
 
 <h3>📋 Requirements</h3>
@@ -84,9 +86,9 @@ N/A
   </tr>
   <tr>
     <td align="center">
-      <br><a href="#"><img src="https://github.com/user-attachments/assets/e730f6f6-3157-41ac-9017-439d17ce6dba" alt="LandinPage" width="200" /></a><br>Exercise 1<br>
-      <a href="#"><img src="" alt="MobileView" width="200" /></a><br>Tablet device view<br>
-      <a href="#"><img src="" alt="MobileView" width="200" /></a><br>button animation<br><br>
+      <br><a href="#"><img src="https://github.com/user-attachments/assets/e730f6f6-3157-41ac-9017-439d17ce6dba" alt="landinpage" width="200" /></a><br>Exercise 1 layout<br>
+      <a href="#"><img src="https://github.com/user-attachments/assets/337cb4cb-31bd-4cab-aa26-7c687ebb26b5" alt="features" width="200" /></a><br>Exercise 2 features<br>
+      <a href="#"><img src="https://github.com/user-attachments/assets/4aaa253e-7d02-4453-82a9-62ab4a40fa04" alt="downloads" width="200" /></a><br>Exercise 3 downloads<br><br>
     </td>  
     <td align="center">
       <a href="#"><img src="" alt="Result" width="600" /></a>
