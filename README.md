@@ -1,4 +1,4 @@
-# S1.2-Bootstrap_-_SASS - N ★★★ <a href="https://github.com/LLuisPP/ITA_FrontEnd"> <img width="80" align="right" alt="ITAcademy" src="https://github.com/user-attachments/assets/6efa87df-ddf4-4d23-adbc-f851c88c0c79"></a>
+# S1.2-Bootstrap_and_SASS - N ★★★ <a href="https://github.com/LLuisPP/ITA_FrontEnd"> <img width="80" align="right" alt="ITAcademy" src="https://github.com/user-attachments/assets/6efa87df-ddf4-4d23-adbc-f851c88c0c79"></a>
 In this exercise, you will have to create a layout clone of another one given as exact as you can with resources provided
 
 <h3>💻 Technologies Used</h3>
@@ -10,7 +10,10 @@ In this exercise, you will have to create a layout clone of another one given as
         <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" width="35" height="35"/></a><br>Html
       </td>
       <td>
-        <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" width="35" height="35"/></a><br>CSS3
+        <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" alt="CSS3" width="35" height="35"/></a><br>Sass
+      </td>
+      <td>
+        <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="CSS3" width="35" height="35"/></a><br>BootS
       </td>
   </tr>
 </table>
@@ -42,7 +45,17 @@ cd ../FolderName
 <h3>🛠️ Installation</h3>
 
 <div align="left">
-This sprint doesn't need to be installed.
+Download packages and dependecies:
+
+`````
+npm install
+`````
+Compile the css file using:
+`````
+npm run build-css
+`````
+
+
 </div>
 
 <h3>▶️ Execution</h3>
@@ -71,12 +84,12 @@ N/A
   </tr>
   <tr>
     <td align="center">
-      <br><a href="#"><img src="https://github.com/user-attachments/assets/37adb03e-7e94-42dd-9d22-8c13f5b9f209" alt="WebView" width="200" /></a><br>Web computer device view<br>
-      <a href="#"><img src="https://github.com/user-attachments/assets/b7ec46f8-413b-4db2-b63e-7b035c7ea928" alt="MobileView" width="200" /></a><br>Tablet device view<br>
-      <a href="#"><img src="https://github.com/user-attachments/assets/b76c3391-b6ed-4a4a-a21a-5e53bcb60e39" alt="MobileView" width="200" /></a><br>button animation<br><br>
+      <br><a href="#"><img src="" alt="WebView" width="200" /></a><br>Web computer device view<br>
+      <a href="#"><img src="" alt="MobileView" width="200" /></a><br>Tablet device view<br>
+      <a href="#"><img src="" alt="MobileView" width="200" /></a><br>button animation<br><br>
     </td>  
     <td align="center">
-      <a href="#"><img src="https://github.com/user-attachments/assets/dc1d5b99-e943-45c6-8abc-8918e59ddea6" alt="Result" width="600" /></a>
+      <a href="#"><img src="" alt="Result" width="600" /></a>
     </td>
   </tr>
 </table>
