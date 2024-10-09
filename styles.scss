@@ -40,9 +40,10 @@ html {
 
 .content-container {
     display: flex;
-    flex: 1;
     flex-direction: column;
+    // flex: 1;
     justify-content: center;
+    border: 3px solid rgb(18, 22, 255);
 }
 
 .content {
@@ -95,17 +96,19 @@ html {
     font-weight: 600;
 }
 
-
+.image {
+    position: relative;
+    display: inline-block;
+}
 /*************** floating figure **************/
-.blue-righ-image {
+.image::before {
     content: '';
     position: absolute;
-    // top: 20%;
-    // right: 0;
+    bottom: 0;
+    right: 0;
     z-index: -1;
     background-color: $primary;
-    border-radius: 0 0 0 38%;
-    // left: 50%;
-    width: 30%;
-    height: 35%;
+    border-radius: 0 0 0 30%;
+    width: 70%;
+    height: 60%;
 }
