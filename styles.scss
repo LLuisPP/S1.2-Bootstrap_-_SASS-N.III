@@ -1,6 +1,7 @@
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
 $font: black;
+$font-parag: rgb(167,168,173);
 $rev_font: white;
 $plain: white;
 $primary: rgb(83, 102, 223);
@@ -15,8 +16,9 @@ html {
 .container {
     display: flex;
     flex-direction: row;
-    // justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
+    row-gap: 10px;
     padding-top:  40px;
     border: 3px solid rgb(255, 60, 30);
 }
@@ -25,7 +27,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 50px 20px 70px 10px;
     margin: 10px;
     max-width: 100%;
     border: 3px solid green;
@@ -68,16 +70,17 @@ html {
 
 @mixin button ($back: color, $color: $plain) {
     background-color: $plain;
+    font-size: 14px;
     color: color;
     border-color: $plain;
     border: 2px solid $plain;
     border-radius:7px;
     padding: 10px;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-left: 10px;
     align-items: end;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    // box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
 
 .button {
@@ -95,6 +98,17 @@ html {
     @include button();
     background-color: $primary;
     color: $rev_font;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.detail-shadow-button {
+    @include button();
+    border: 0px;
+    background-color: rgb(247,247,247);
+    box-shadow: 1px 5px 3px rgba(0, 0, 0, 0.1);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .title {
@@ -105,6 +119,7 @@ html {
 
 .paragraph {
     line-height: 1.5;
+    color: $font-parag;
     margin-top: 15px;
     margin-bottom: 20px;
 }
@@ -122,7 +137,7 @@ html {
     content: '';
     position: absolute;
     bottom: 0;
-    right: 0;
+    left: 35%;
     z-index: -1;
     background-color: $primary;
     border-radius: 0 0 0 30%;
