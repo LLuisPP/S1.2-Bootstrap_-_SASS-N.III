@@ -86,7 +86,7 @@ N/A
 <h2>Results vs expected results</h2>
 
 > [!Tip]
-> Key concepts: `Bootstrap components`, `grid syntax`, `@mixin / @include`, `.class::before{}`, `@media querys`, `grid | container > row > col`
+> Key concepts: `Bootstrap components`, `grid syntax`, `@mixin / @include`, `.class::before{}`, `@media queries`, `grid | container > row > col`
 
 <div align="center">
 <table>
