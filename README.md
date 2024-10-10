@@ -1,4 +1,4 @@
-# S1.2-Bootstrap_and_SASS - N ★★★ <a href="https://github.com/LLuisPP/ITA_FrontEnd"> <img width="80" align="right" alt="ITAcademy" src="https://github.com/user-attachments/assets/6efa87df-ddf4-4d23-adbc-f851c88c0c79"></a>
+# S1.2-Bootstrap_and_SASS - N ★★★ <a href="https://github.com/LLuisPP/ITA_FrontEnd"> <img width="80" align="right" alt="ITAcademy" src="https://github.com/user-attachments/assets/1ecb00ab-82bd-4c76-9fe4-8ab273b8cc3e"></a>
 In this exercise, you will have to create a layout clone of another one given as exact as you can with resources provided
 
 <h2>💻 Technologies Used</h2>
