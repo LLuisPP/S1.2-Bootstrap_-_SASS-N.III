@@ -20,17 +20,17 @@ html {
     align-items: center;
     row-gap: 10px;
     padding-top:  40px;
-    border: 3px solid rgb(255, 60, 30);
+    // border: 3px solid rgb(255, 60, 30);
 }
 
 .nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 20px 70px 10px;
+    padding: 50px 30px 45px 30px;
     margin: 10px;
     max-width: 100%;
-    border: 3px solid green;
+    // border: 3px solid green;
     margin-right: 10%;
 }
 
@@ -47,7 +47,7 @@ html {
     flex-direction: column;
     justify-content: center;
     padding: 20px;
-    border: 3px solid rgb(18, 22, 255);
+    // border: 3px solid rgb(18, 22, 255);
 }
 
 // .content {
@@ -70,7 +70,7 @@ html {
 
 @mixin button ($back: color, $color: $plain) {
     background-color: $plain;
-    font-size: 14px;
+    font-size: 12px;
     color: color;
     border-color: $plain;
     border: 2px solid $plain;
@@ -78,7 +78,7 @@ html {
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    margin-left: 10px;
+    // margin-left: 10px;
     align-items: end;
     // box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
