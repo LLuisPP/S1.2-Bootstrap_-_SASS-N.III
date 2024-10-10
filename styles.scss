@@ -132,15 +132,16 @@ html {
     height: auto;
     object-fit: cover;
 }
+
 /*************** floating figure **************/
 .imageRight::before {
     content: '';
     position: absolute;
     bottom: 0;
-    left: 35%;
+    left: 30%;
     z-index: -1;
     background-color: $primary;
     border-radius: 0 0 0 30%;
-    width: 70%;
-    height: 60%;
+    width: 77%;
+    height: 70%;
 }
