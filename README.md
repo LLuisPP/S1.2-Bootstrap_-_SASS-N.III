@@ -23,10 +23,10 @@ In this exercise, you will have to create a layout clone of another one given as
 <h2>📋 Requirements</h2>
 
 > [!WARNING]
-> You will need to install node.js and bootstrap to install this sprint, if needed:
+> You will need to install node.js and bootstrap and sass to install and execute this sprint
 
 <div align="left">
-Install bootstrap:
+Install bootstrap (if needed):
   
 `````
 npm install bootstrap
