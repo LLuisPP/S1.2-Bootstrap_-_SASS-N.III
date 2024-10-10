@@ -78,6 +78,7 @@ html {
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
+    letter-spacing: 0.2em;
     // margin-left: 10px;
     align-items: end;
     // box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
@@ -98,8 +99,9 @@ html {
     @include button();
     background-color: $primary;
     color: $rev_font;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 0em;
 }
 
 .detail-shadow-button {
@@ -107,8 +109,10 @@ html {
     border: 0px;
     background-color: rgb(247,247,247);
     box-shadow: 1px 5px 3px rgba(0, 0, 0, 0.1);
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    letter-spacing: 0em;
 }
 
 .title {
@@ -137,11 +141,11 @@ html {
 .imageRight::before {
     content: '';
     position: absolute;
-    bottom: 0;
-    left: 30%;
+    bottom: -30px;
+    left: 31%;
     z-index: -1;
     background-color: $primary;
-    border-radius: 0 0 0 30%;
+    border-radius: 0 0 0 170px;
     width: 77%;
-    height: 70%;
+    height: 77%;
 }
