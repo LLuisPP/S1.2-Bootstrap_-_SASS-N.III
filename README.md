@@ -1,7 +1,7 @@
 # S1.2-Bootstrap_and_SASS - N ★★★ <a href="https://github.com/LLuisPP/ITA_FrontEnd"> <img width="80" align="right" alt="ITAcademy" src="https://github.com/user-attachments/assets/6efa87df-ddf4-4d23-adbc-f851c88c0c79"></a>
 In this exercise, you will have to create a layout clone of another one given as exact as you can with resources provided
 
-<h3>💻 Technologies Used</h3>
+<h2>💻 Technologies Used</h2>
 
 <div align="center">
 <table>
@@ -20,11 +20,13 @@ In this exercise, you will have to create a layout clone of another one given as
 
 </div>
 
-<h3>📋 Requirements</h3>
+<h2>📋 Requirements</h2>
+
+> [!WARNING]
+> You will need to install node.js and bootstrap to install this sprint, if needed:
 
 <div align="left">
-
-Install bootstrap if needed:
+Install bootstrap:
   
 `````
 npm install bootstrap
@@ -43,11 +45,14 @@ cd ../FolderName
 `````
 </div>
 
-<h3>🛠️ Installation</h3>
+<h2>🛠️ Installation</h2>
+
+> [!IMPORTANT]
+> Be sure you have installed required software, see requirements
 
 <div align="left">
 Download packages and dependecies:
-
+  
 `````
 npm install
 `````
@@ -55,23 +60,33 @@ Compile the css file using:
 `````
 npm run build-css
 `````
+Use watch to refresh on changing values:
+`````
+sass --watch styles.scss styles.css
+`````
 
 
 </div>
 
-<h3>▶️ Execution</h3>
+<h2>▶️ Execution</h2>
 
 - Double click on index.html
-- Open your browser developertools and activate mobile view
-- Test all devices: web view > tablet view > mobile view
+- Resize display: web view > tablet view > mobile view
+- Test responsive
 
-<h3>🌐 Deployment</h3>
+> [!NOTE]
+> Use developer tools from your browser (F12)
+
+<h2>🌐 Deployment</h2>
 
 <div align="left">
 N/A
 </div>
 
-<h3>Results vs expected results</h3>
+<h2>Results vs expected results</h2>
+
+> [!Tip]
+> Key concepts: `Bootstrap components`, `grid syntax`, `@mixin / @include`, `.class::before{}`, `@media querys`, `grid | container > row > col`
 
 <div align="center">
 <table>
@@ -97,9 +112,10 @@ N/A
 </table>
 </div>
 
-<h3>🤝 Contributions</h3>
+<h2>🤝 Contributions</h2>
 
-This repo doesn't accept contributions, but if you detect an error:
+> [!WARNING]
+> This repo doesn't accept contributions, but if you detect an error:
  
 Fork the repository  
 - Create a new branch: `git checkout -b ErrorBug`
