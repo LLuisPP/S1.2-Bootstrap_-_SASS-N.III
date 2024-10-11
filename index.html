@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>1.2-Bootstrap_and_SASS.NIII</title>
   <link rel="stylesheet" href="styles.css" />
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
 </head>
 
 <body>
-  <div class="nav-bar">
+  <div class="nav-bar nav-bar-expand-sm">
     <img class="nav-logo" src="images/logo-bookmark.svg" alt="logo-bookmark" />
     <div>
       <button class="button">FEATURES</button>
@@ -21,10 +21,10 @@
   </div>
   <div class="container">
     <div class="content-container">
-      <div class="title">A Simple Bookmark Manager</div>
-      <div class="paragraph">A clean and simple interface to arganize your favoruite websites. Open a new browser tab
+      <h2 class="title">A Simple Bookmark Manager</h2>
+      <p class="paragraph">A clean and simple interface to arganize your favoruite websites. Open a new browser tab
         and see yor sites load instatntly. Try it for free.
-      </div class="button-container">
+      </p>
       <button class="detail-button">Get it on chrome</button>
       <button class="detail-shadow-button">Get it on Firefox</button>
     </div>
@@ -33,6 +33,12 @@
         <img src="/images/illustration-hero.svg" alt="illustration-hero" />
       </div>
     </div>
+  </div>
+
+  <div>
+    <div class="container">Container 1</div>
+    <div class="container">Container 2</div>
+    <div class="container">Container 3</div>
   </div>
 </body>
 
