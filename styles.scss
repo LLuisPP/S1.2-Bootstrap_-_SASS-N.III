@@ -22,7 +22,7 @@ html {
     align-items: center;
     row-gap: 10px;
     padding-top:  40px;
-    border: 3px solid rgb(255, 60, 30);
+    // border: 3px solid rgb(255, 60, 30);
 }
 
 .nav-bar {
@@ -123,6 +123,10 @@ html {
     line-height: 1;
 }
 
+.subtitle {
+    font-weight: 600;
+}
+
 .paragraph {
     line-height: 1.5;
     color: $font-parag;
@@ -172,3 +176,40 @@ html {
     width: 115%;
     height: 95%;
 }
+
+
+.nav-link {
+    border-color: $plain !important;
+    text-align: center;
+}
+
+.selected {
+    border-bottom: 3px solid rgb(240,87,88) !important;
+}
+
+// .card-button:hover {
+//     background-color: aqua;
+// }
+
+.dotted-separator {
+    border: none;
+    border-top: 6px dotted rgb(184, 183, 191);
+    width: 100%;
+    margin: 15px 0;
+}
+
+.card-row {
+    display: flex;
+    gap: 1rem;
+  }
+
+  /* Margen superior creciente para simular la escalera */
+  .second-card {
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .third-card {
+    margin-top: 80px;
+  }
