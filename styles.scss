@@ -187,9 +187,12 @@ html {
     border-bottom: 3px solid rgb(240,87,88) !important;
 }
 
-// .card-button:hover {
-//     background-color: aqua;
-// }
+.card-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: $primary;
+    border: 2px;
+    border-color: $primary;
+}
 
 .dotted-separator {
     border: none;
