@@ -34,16 +34,6 @@ html {
     justify-content: space-between;
 }
 
-
-
-.navigation {
-    display: flex;
-    gap: 15px;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: row;
-}
-
 .content-container {
     flex: 1;
     flex-direction: column;
@@ -115,7 +105,7 @@ html {
 .detail-shadow-button {
     @include button();
     border: 1px solid $plain;
-    background-color: rgb(247,247,247);
+    background-color: $plain;
     box-shadow: 1px 5px 3px rgba(0, 0, 0, 0.1);
     padding-left: 20px;
     padding-right: 20px;
@@ -251,6 +241,34 @@ html {
     height: auto;
     margin-left: 70px;
     margin-top: 60px;
+}
+
+/*************** achordion menu **************/
+
+.accordion-button:not(.collapsed) {
+    background-color: $plain; /* Cambiar a cualquier color que desees */
+    color: $font; /* Color del texto */
+}
+
+/* Cambiar el ancho del ítem expandido */
+.accordion-collapse {
+    // width: 60%; /* El ancho puede ser un porcentaje o en píxeles, por ejemplo, 80% o 500px */
+    // transition: width 0.3s ease; /* Animación para suavizar el cambio de ancho */
+}
+
+/* Cambiar el tamaño de los botones */
+.accordion-button {
+    // padding: 15px 20px; /* Ajustar el padding (espaciado interior) */
+    // font-size: 1.1rem; /* Ajustar el tamaño de la fuente */
+    width: 40%; /* Cambiar el color de la flecha cuando está expandido */
+}
+
+/* Cambiar color de la flecha del acordeón cuando está expandido */
+.accordion-button.collapsed::after {
+    color: #d9534f;/* Cambiar el color de la flecha cuando está colapsado */
+}
+.accordion-button:not(.collapsed)::after {
+    color: #5bc0de;
 }
 
 /*************** footer menu **************/
