@@ -12,25 +12,25 @@
 <body>
 <!-- navbar amb bootstrap -->
 
-<nav class="navbar navbar-expand-sm navbar-light bg-white p-3 m-3">
+<nav class="navbar navbar-expand-sm navbar-light px-5">
   
   <a href="" class="navbar-brand">
-    <img class="nav-logo" src="images/logo-bookmark.svg" alt="logo-bookmark" />
+    <img class="nav-logo ms-5" src="images/logo-bookmark.svg" alt="logo-bookmark" />
   </a>
   <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarContent">
     <img src="img/icon-hamburger.svg" alt="icon-hamburger">
   </button>
 
-  <div class="collapse navbar-collapse justify-content-end text-center">
-    <ul class="navbar-nav align-items-center" id="contents">
+  <div class="collapse navbar-collapse justify-content-end text-center col-sm-12 col-md-10 col-lg-10 col-xl-10 text-center">
+    <ul class="navbar-nav align-items-center">
       <li class="nav-item">
-        <a class="nav-link button" href="#">FEATURES</a>
+        <a class="nav-link button mx-4" href="#">FEATURES</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link button" href="#">PRICING</a>
+        <a class="nav-link button mx-4" href="#">PRICING</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link button" href="#">CONTACT</a>
+        <a class="nav-link button mx-4" href="#">CONTACT</a>
       </li>
       <li class="nav-item">
         <button class="login-button m-1" id="login-button" type="submit">LOGIN</button>
@@ -38,8 +38,7 @@
     </ul>
   </div>
 </nav>
-
-<!-- navbar --------------------------------------------------------------->
+<!-- 
 
   <div class="nav-bar">
     <img class="nav-logo" src="images/logo-bookmark.svg" alt="logo-bookmark" />
@@ -49,7 +48,7 @@
       <button class="button">CONTACT</button>
       <button class="login-button">LOGIN</button>
     </div>
-  </div>
+  </div> -->
  
 
 <!-- content features -------------------------------------------------------->
@@ -60,7 +59,7 @@
       <h2 class="display-7 title">A Simple Bookmark Manager</h2>
       <p class="paragraph">A clean and simple interface to arganize your favoruite websites. Open a new browser tab and see yor sites load instatntly. Try it for free.
       </p>
-      <button class="detail-button">More info</button>
+      <button class="detail-button">Get it on Chrome</button>
       <button class="detail-shadow-button">Get it on Firefox</button>
     </div>
     <div class="col-sm-12 col-md-5 col-lg-7 col-xl-5 m-2 me-lg-4 mb-5">
@@ -80,24 +79,81 @@
   </div>
 
   <div class="container justify-content-center">
-    <div class="col-sm-4 col-md-4 col-lg-7 col-xl-6 text-center">
-      <ul class="nav nav-tabs d-flex">
-        <li class="nav-item flex-grow-1">
-          <a class="nav-link active selected text-center" href="#">Simple Bookmarking</a>
-        </li>
-        <li class="nav-item flex-grow-1">
-          <a class="nav-link disabled text-center" href="#">Speedy Searching</a>
-        </li>
-        <li class="nav-item flex-grow-1">
-          <a class="nav-link disabled text-center" href="#">Easy Sharing</a>
-        </li>
-      </ul>
+    
+  </div>
+  <nav>
+    <div class=" display-felx nav nav-tabs justify-content-center col-sm-4 col-md-4 col-lg-12 col-xl-12 text-center" id="nav-tab" role="tablist">
+      <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Simple Bookmarking</button>
+      <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Speedy Searching</button>
+      <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Easy Sharing</button>
+    </div>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+    
+    <!-- TAB 1 -->
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-sm-12 col-md-5 col-lg-7 col-xl-5 m-2 me-lg-4 mb-5">
+            <div class="imageLeft mx-3 ms-">
+              <img class="img-fluid" src="/images/illustration-features-tab-1.svg" alt="illustration-features-tab-1" />
+            </div>
+          </div>
+          <div class="col-sm-10 col-md-5 col-lg-3 col-xl-5 ms-3  mt-4 mb-5">
+            <h2 class="display-7 subtitle">Bookmark in one click</h2>
+            <p class="paragraph">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.
+            </p>
+            <button class="detail-button">More info</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+      
+    <!-- TAB 2 -->
+      <div class="container">
+        <div class="row justify-content-center align-items-center ">
+          <div class="col-sm-12 col-md-5 col-lg-7 col-xl-5 m-2 me-lg-4 mb-5">
+            <div class="imageLeft mx-3 ms-">
+              <img class="img-fluid" src="/images/illustration-features-tab-2.svg" alt="illustration-features-tab-1" />
+            </div>
+          </div>
+          <div class="col-sm-10 col-md-5 col-lg-3 col-xl-5 ms-3  mt-4 mb-5">
+            <h2 class="display-7 subtitle">Intelligent Searching</h2>
+            <p class="paragraph">Our powerfull search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.
+            </p>
+            <button class="detail-button">More info</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+    
+      <!-- TAB 3 -->
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-sm-12 col-md-5 col-lg-7 col-xl-5 m-2 me-lg-4 mb-5">
+            <div class="imageLeft mx-3 ms-">
+              <img class="img-fluid" src="/images/illustration-features-tab-3.svg" alt="illustration-features-tab-1" />
+            </div>
+          </div>
+          <div class="col-sm-10 col-md-5 col-lg-3 col-xl-5 ms-3  mt-4 mb-5">
+            <h2 class="display-7 subtitle">Share your bookmarks</h2>
+            <p class="paragraph">Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.
+            </p>
+            <button class="detail-button">More info</button>
+          </div>
+        </div>
+      </div>
+
+
     </div>
   </div>
 
 <!-- content features -------------------------------------------------------->
 
-  <div class="container">
+  <!-- <div class="container">
     <div class="row justify-content-center align-items-center">
       <div class="col-sm-12 col-md-5 col-lg-7 col-xl-5 m-2 me-lg-4 mb-5">
         <div class="imageLeft mx-3 ms-">
@@ -111,13 +167,13 @@
         <button class="detail-button">More info</button>
       </div>
     </div>
-  </div>
+  </div> -->
 
 <!-- content download -------------------------------------------------------->
 
   <div class="container justify-content-center mt-5">
     <div class="row justify-content-center">
-    <div class="col-sm-8 col-md-8 col-lg-6 col-xl-5 text-center">
+    <div class="col-sm-8 col-md-8 col-lg-6 col-xl-8 text-center">
       <h2 class="display-7 subtitle">Download the extension</h2>
       <p class="paragraph justify-content-center">We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like to prioritize.</p></div>
     </div>
@@ -157,7 +213,7 @@
             <p class="paragraph text-center">Minimum version 46</p>
             <div class="list-group list-group-flush">
               <div class="">
-              <img src="./images/bg-dots.svg" alt="bg-dots" class="">
+              <img src="./images/bg-dots.svg" alt="bg-dots" class="mb-3">
             </div>
               <!-- <hr class="dotted-separator"> -->
               <button href="#" class="detail-button card-button">Add & install Extension</button>
@@ -234,8 +290,8 @@
   
 <!-- footer  -------------------------------------------------------->
 
-  <footer class="footer bg-footer">
-    <div class="row text-center justify-content-center mt-5">
+  <footer class="footer">
+    <div class="row bg-footer text-center justify-content-center mt-5">
       <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
         <p class="footer-subtitle mt-5">
           35.000+ ALREADY JOINED
@@ -249,13 +305,13 @@
         <button class="login-button col-3 col-sm-3 col-md-4 col-lg-4 col-xl-4 btn btn-primary">Contact Us</button>
       </div>
 
-      <div class="footer-nav row justify-content-center">
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-          <img class="nav-logo" src="images/logo-bookmark.svg" alt="logo-bookmark" />
+      <div class="footer bg-footer2 row justify-content-center">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center my-3">
+          <img class="bookmark-logo" src="images/logo-bookmark.svg" alt="logo-bookmark" />
           <button class="footer-button">FEATURES</button>
           <button class="footer-button">PRICING</button>
           <button class="footer-button">CONTACT</button>
-          <img class="gap-3" src="./images/icon-facebook.svg" alt="icon-facebook" class="social-icon">
+          <img src="./images/icon-facebook.svg" alt="icon-facebook" class="social-icon">
           <img src="./images/icon-twitter.svg" alt="icon-twitter" class="social-icon">
         </div>
       </div>
