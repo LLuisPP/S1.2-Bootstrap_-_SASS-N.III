@@ -10,11 +10,12 @@
 </head>
 
 <body>
+
 <!-- navbar amb bootstrap -->
 
 <nav class="navbar navbar-expand-sm navbar-light px-5">
   
-  <a href="" class="navbar-brand">
+  <a href="#" class="navbar-brand">
     <img class="nav-logo ms-5" src="images/logo-bookmark.svg" alt="logo-bookmark" />
   </a>
   <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarContent">
@@ -38,26 +39,14 @@
     </ul>
   </div>
 </nav>
-<!-- 
-
-  <div class="nav-bar">
-    <img class="nav-logo" src="images/logo-bookmark.svg" alt="logo-bookmark" />
-    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-      <button class="button">FEATURES</button>
-      <button class="button">PRICING</button>
-      <button class="button">CONTACT</button>
-      <button class="login-button">LOGIN</button>
-    </div>
-  </div> -->
- 
 
 <!-- content features -------------------------------------------------------->
 
 <div class="container">
   <div class="row justify-content-center align-items-center">
     <div class="col-sm-10 col-md-5 col-lg-3 col-xl-5 ms-3  mt-4 mb-5">
-      <h2 class="display-7 title">A Simple Bookmark Manager</h2>
-      <p class="paragraph">A clean and simple interface to arganize your favoruite websites. Open a new browser tab and see yor sites load instatntly. Try it for free.
+      <h2 class="display-7 title ">A Simple Bookmark Manager</h2>
+      <p class="paragraph col-sm-10 col-md-8 col-lg-10 col-xl-10 ms-3  mt-4 mb-5">A clean and simple interface to arganize your favoruite websites. Open a new browser tab and see yor sites load instatntly. Try it for free.
       </p>
       <button class="detail-button">Get it on Chrome</button>
       <button class="detail-shadow-button">Get it on Firefox</button>
@@ -91,7 +80,7 @@
   <div class="tab-content" id="nav-tabContent">
     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
     
-    <!-- TAB 1 -->
+    <!-- TAB 1 -------------------------------------------------------->
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <div class="col-sm-12 col-md-5 col-lg-7 col-xl-5 m-2 me-lg-4 mb-5">
@@ -110,7 +99,7 @@
     </div>
     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
       
-    <!-- TAB 2 -->
+    <!-- TAB 2 -------------------------------------------------------->
       <div class="container">
         <div class="row justify-content-center align-items-center ">
           <div class="col-sm-12 col-md-5 col-lg-7 col-xl-5 m-2 me-lg-4 mb-5">
@@ -130,7 +119,7 @@
     </div>
     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
     
-      <!-- TAB 3 -->
+      <!-- TAB 3 -------------------------------------------------------->
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <div class="col-sm-12 col-md-5 col-lg-7 col-xl-5 m-2 me-lg-4 mb-5">
@@ -178,9 +167,9 @@
       <p class="paragraph justify-content-center">We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like to prioritize.</p></div>
     </div>
     </div>
-    <div class="container justify-content-center mb-5">
-      <div class="row align-items-center justify-content-center">
-        <!-- <div class="row-sm-12 row-md-4 row-lg-4 row-xl-4"> -->
+    <div class="container mb-5">
+      <div class="row justify-content-center">
+        <!-- <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12"> -->
         
         <div class="card" style="width: 16rem;">
           <img class="card-image" src="./images/logo-chrome.svg" class="card-img-top" alt="logo-chrome">
@@ -215,7 +204,6 @@
               <div class="">
               <img src="./images/bg-dots.svg" alt="bg-dots" class="mb-3">
             </div>
-              <!-- <hr class="dotted-separator"> -->
               <button href="#" class="detail-button card-button">Add & install Extension</button>
             </div>
           </div>
@@ -305,14 +293,16 @@
         <button class="login-button col-3 col-sm-3 col-md-4 col-lg-4 col-xl-4 btn btn-primary">Contact Us</button>
       </div>
 
-      <div class="footer bg-footer2 row justify-content-center">
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center my-3">
+      <div class="footer bg-footer2 d-flex justify-content-between">
+        <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 justify-content-start my-3">
           <img class="bookmark-logo" src="images/logo-bookmark.svg" alt="logo-bookmark" />
           <button class="footer-button">FEATURES</button>
           <button class="footer-button">PRICING</button>
           <button class="footer-button">CONTACT</button>
-          <img src="./images/icon-facebook.svg" alt="icon-facebook" class="social-icon">
-          <img src="./images/icon-twitter.svg" alt="icon-twitter" class="social-icon">
+          <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 d-flex justify-content-end my-3">
+            <img src="./images/icon-facebook.svg" alt="icon-facebook" class="social-icon">
+            <img src="./images/icon-twitter.svg" alt="icon-twitter" class="social-icon">
+          </div>
         </div>
       </div>
     </div>
