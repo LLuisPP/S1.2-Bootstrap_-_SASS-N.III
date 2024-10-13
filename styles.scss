@@ -203,7 +203,7 @@ html {
 /*************** Features menu **************/
 .nav-link {
     border-color: $plain !important;
-    color: $font;
+    color: $font-parag;
     text-align: center;
 }
 .nav-link:hover {
@@ -211,6 +211,10 @@ html {
     color: $secondary;
 }
 
+.nav-tabs {
+    border-bottom: none;
+    box-shadow: none;
+}
 
 .nav-tabs .nav-link.active {
     border-bottom: 3px solid $secondary !important;
