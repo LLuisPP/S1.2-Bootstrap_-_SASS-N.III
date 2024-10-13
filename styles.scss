@@ -6,6 +6,7 @@ $rev_font: white;
 $plain: white;
 $primary: rgb(83, 102, 223);
 $secondary: rgb(240,87,90);
+$tertiarry: rgb(36,42,69);
 
 html {
     max-width: 1200px;
@@ -152,7 +153,7 @@ html {
     object-fit: cover;
 }
 
-/*************** floating figure **************/
+/*************** floating figures **************/
 .imageRight::before {
     content: '';
     position: absolute;
@@ -177,7 +178,7 @@ html {
     height: 95%;
 }
 
-
+/*************** Features menu **************/
 .nav-link {
     border-color: $plain !important;
     text-align: center;
@@ -222,3 +223,34 @@ html {
     margin-left: 70px;
     margin-top: 60px;
   }
+
+  /*************** footer menu **************/
+
+  .bg-footer {
+    background-color: $primary;
+    color: $plain;
+  }
+
+  .footer-nav {
+    @include button();
+    background-color: $tertiarry;
+    color: $rev_font;
+  }
+
+  .footer-subtitle {
+    letter-spacing: 0.2em;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1;
+  }
+
+  .footer-button {
+    @include button();
+    background-color: $tertiarry;
+    color: $rev_font;
+    border: none;
+  }
+
+  .footer-button:hover {
+    color: $secondary;
+}
