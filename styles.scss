@@ -281,6 +281,14 @@ html {
     color: $secondary;
 }
 
+.accordion-button::after {
+    color: $secondary; /* Cambia este valor por el color que desees */
+}
+
+.accordion-button.collapsed::after {
+    color: $secondary !important; /* Cambia este valor por el color de la flecha cuando está colapsada */
+}
+
 /*************** footer menu **************/
 
 .bg-footer {
