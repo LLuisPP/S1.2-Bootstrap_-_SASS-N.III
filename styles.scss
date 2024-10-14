@@ -201,13 +201,11 @@ html {
     border-bottom: 3px solid $secondary !important;
 }
 
-
 .card-button:hover {
     background-color: rgb(255, 255, 255);
     color: $primary;
     border: 2px solid $primary;
 }
-
 
 .card {
     border: none;
@@ -252,23 +250,23 @@ html {
     color: $font; /* Color del texto del botón del acordeón */
 }
 
-.custom-accordion .accordion-body {
-    background-color: #fff; /* Color del cuerpo del acordeón (desplegado) */
-    border-color: rgba(216, 13, 13, 0.125); /* Color del borde del cuerpo del acordeón */
-    color: #000000; /* Color del texto del cuerpo del acordeón */
-    width: 60%;
-    justify-items: center;
-}
+// .custom-accordion .accordion-body {
+//     background-color: #fff; /* Color del cuerpo del acordeón (desplegado) */
+//     border-color: rgba(216, 13, 13, 0.125); /* Color del borde del cuerpo del acordeón */
+//     color: #000000; /* Color del texto del cuerpo del acordeón */
+//     width: 60%;
+//     justify-items: center;
+// }
 
 .custom-accordion .accordion-button:not(.collapsed) {
     background-color: #ffffff;
     color: $font;
 }
 
-.custom-accordion .accordion-button:focus {
-    border-color: #80bdff; /* Color del borde cuando está enfocado */
-    box-shadow: 0 0 0 0.25rem $plain; /* Sombra al hacer foco en el botón */
-}
+// .custom-accordion .accordion-button:focus {
+//     border-color: #80bdff; /* Color del borde cuando está enfocado */
+//     box-shadow: 0 0 0 0.25rem $plain; /* Sombra al hacer foco en el botón */
+// }
 
 .custom-accordion .accordion-button.collapsed {
     align-items: center;
@@ -286,7 +284,7 @@ html {
 }
 
 .accordion-button.collapsed::after {
-    color: $secondary !important; /* Cambia este valor por el color de la flecha cuando está colapsada */
+    color: $secondary !important; /* Cambia este valor por el color de la flecha cuando está colapsada  NO VA*/
 }
 
 /*************** footer menu **************/
@@ -314,6 +312,11 @@ html {
     line-height: 1;
 }
 
+.valid-error {
+    color: $plain;
+    background-color: $secondary;
+}
+
 .footer-button {
     @include button();
     background-color: $tertiarry;
@@ -324,7 +327,6 @@ html {
 .footer-button:hover {
     color: $secondary;
 }
-
 
 .social-icon:hover {
     filter: invert(70%) sepia(70%) saturate(1000%) hue-rotate(-50deg) brightness(100%);
