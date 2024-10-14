@@ -270,6 +270,10 @@ html {
     box-shadow: 0 0 0 0.25rem $plain; /* Sombra al hacer foco en el botón */
 }
 
+.custom-accordion .accordion-button.collapsed {
+    align-items: center;
+}
+
 .custom-accordion .accordion-button.collapsed:hover {
     color: $secondary;
 }
