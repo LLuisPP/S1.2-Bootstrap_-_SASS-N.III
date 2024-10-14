@@ -9,6 +9,7 @@ $plain: white;
 $primary: rgb(83, 102, 223);
 $secondary: rgb(240,87,90);
 $tertiarry: rgb(36,42,69);
+$body-color: $plain;
 
 html {
     max-width: 1200px;
@@ -25,7 +26,7 @@ html {
     align-items: center;
     row-gap: 10px;
     padding-top:  40px;
-    border: 3px solid rgb(255, 60, 30);
+    // border: 3px solid rgb(255, 60, 30);
 }
 
 .navbar {
@@ -245,30 +246,35 @@ html {
 
 /*************** achordion menu **************/
 
-.accordion-button:not(.collapsed) {
-    background-color: $plain; /* Cambiar a cualquier color que desees */
-    color: $font; /* Color del texto */
+.custom-accordion .accordion-button {
+    background-color: #ffffff; /* Color de fondo del botón del acordeón (plegado) */
+    border-color: rgba(153, 39, 39, 0.125); /* Color del borde del acordeón */
+    color: $font; /* Color del texto del botón del acordeón */
 }
 
-/* Cambiar el ancho del ítem expandido */
-.accordion-collapse {
-    // width: 60%; /* El ancho puede ser un porcentaje o en píxeles, por ejemplo, 80% o 500px */
-    // transition: width 0.3s ease; /* Animación para suavizar el cambio de ancho */
+.custom-accordion .accordion-body {
+    background-color: #fff; /* Color del cuerpo del acordeón (desplegado) */
+    border-color: rgba(216, 13, 13, 0.125); /* Color del borde del cuerpo del acordeón */
+    color: #000000; /* Color del texto del cuerpo del acordeón */
+    width: 60%;
+    justify-items: center;
 }
 
-/* Cambiar el tamaño de los botones */
-.accordion-button {
-    // padding: 15px 20px; /* Ajustar el padding (espaciado interior) */
-    // font-size: 1.1rem; /* Ajustar el tamaño de la fuente */
-    width: 40%; /* Cambiar el color de la flecha cuando está expandido */
+.custom-accordion .accordion-button:not(.collapsed) {
+    background-color: #ffffff;
+    color: $font;
 }
 
-/* Cambiar color de la flecha del acordeón cuando está expandido */
-.accordion-button.collapsed::after {
-    color: #d9534f;/* Cambiar el color de la flecha cuando está colapsado */
+.custom-accordion .accordion-button:focus {
+    border-color: #80bdff; /* Color del borde cuando está enfocado */
+    box-shadow: 0 0 0 0.25rem $plain; /* Sombra al hacer foco en el botón */
 }
-.accordion-button:not(.collapsed)::after {
-    color: #5bc0de;
+
+.custom-accordion .accordion-button.collapsed:hover {
+    color: $secondary;
+}
+.custom-accordion .accordion-button:not(.collapsed):hover {
+    color: $secondary;
 }
 
 /*************** footer menu **************/
@@ -314,8 +320,4 @@ html {
 
 .icon-bookmark:hover {
     filter: invert(70%) sepia(70%) saturate(1000%) hue-rotate(-50deg) brightness(100%);
-}
-
-.bookmark-logo {
-    filter: invert(1000%) invert(10%);
 }
