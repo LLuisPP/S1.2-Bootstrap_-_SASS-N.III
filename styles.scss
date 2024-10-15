@@ -122,6 +122,25 @@ html {
     background-color: $plain;
 }
 
+.submit-button {
+    @include button();
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: $secondary;
+    border: 2px solid $secondary;
+    color: $rev_font;
+    max-height: 40px;
+    max-width: 160px;
+    letter-spacing: 0.1em;
+    max-lines: 1;
+}
+.submit-button:hover {
+    color: $secondary;
+    border-color: $secondary;
+    background-color: $plain;
+}
+
 /************* TEXT *****************/
 
 .title {
@@ -282,11 +301,11 @@ html {
 }
 
 .accordion-button::after {
-    color: $secondary; /* Cambia este valor por el color que desees */
+    color: $secondary;
 }
 
 .accordion-button.collapsed::after {
-    color: $secondary !important; /* Cambia este valor por el color de la flecha cuando está colapsada  NO VA*/
+    color: $secondary !important;
 }
 
 /*************** FOOTER MENU **************/
