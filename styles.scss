@@ -70,6 +70,8 @@ html {
     align-items: end;
 }
 
+/************* BUTTONS *****************/
+
 .button {
     @include button();
 }
@@ -120,6 +122,8 @@ html {
     background-color: $plain;
 }
 
+/************* TEXT *****************/
+
 .title {
     font-size: 44px;
     font-weight: 600;
@@ -157,6 +161,7 @@ html {
 }
 
 /*************** floating figures **************/
+
 .imageRight::before {
     content: '';
     position: absolute;
@@ -165,7 +170,7 @@ html {
     z-index: -1;
     background-color: $primary;
     border-radius: 0 0 0 170px;
-    width: 100%;
+    width: 90%;
     height: 77%;
 }
 
@@ -182,6 +187,7 @@ html {
 }
 
 /*************** Features menu **************/
+
 .nav-link {
     border-color: $plain !important;
     color: $font-parag;
@@ -207,21 +213,30 @@ html {
     border: 2px solid $primary;
 }
 
+/************* CARDS *****************/
+
 .card {
-    border: none;
+    box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.1);
 }
 
 .card-row {
     display: flex;
     gap: 1rem;
-  }
+}
+
+.first-card {
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
 
 .second-card {
     margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 .third-card {
     margin-top: 70px;
+    margin-bottom: 30px;
 }
 
 .bg-dots-container {
@@ -242,7 +257,7 @@ html {
     margin-top: 60px;
 }
 
-/*************** achordion menu **************/
+/*************** ACCORDION MENU **************/
 
 .custom-accordion .accordion-button {
     background-color: #ffffff; /* Color de fondo del botón del acordeón (plegado) */
@@ -250,23 +265,10 @@ html {
     color: $font; /* Color del texto del botón del acordeón */
 }
 
-// .custom-accordion .accordion-body {
-//     background-color: #fff; /* Color del cuerpo del acordeón (desplegado) */
-//     border-color: rgba(216, 13, 13, 0.125); /* Color del borde del cuerpo del acordeón */
-//     color: #000000; /* Color del texto del cuerpo del acordeón */
-//     width: 60%;
-//     justify-items: center;
-// }
-
 .custom-accordion .accordion-button:not(.collapsed) {
     background-color: #ffffff;
     color: $font;
 }
-
-// .custom-accordion .accordion-button:focus {
-//     border-color: #80bdff; /* Color del borde cuando está enfocado */
-//     box-shadow: 0 0 0 0.25rem $plain; /* Sombra al hacer foco en el botón */
-// }
 
 .custom-accordion .accordion-button.collapsed {
     align-items: center;
@@ -287,12 +289,13 @@ html {
     color: $secondary !important; /* Cambia este valor por el color de la flecha cuando está colapsada  NO VA*/
 }
 
-/*************** footer menu **************/
+/*************** FOOTER MENU **************/
 
 .bg-footer {
     background-color: $primary;
     color: $plain;
 }
+
 .bg-footer2 {
     background-color: $tertiarry;
     color: $plain;
@@ -333,5 +336,5 @@ html {
 }
 
 .icon-bookmark:hover {
-    filter: invert(70%) sepia(70%) saturate(1000%) hue-rotate(-50deg) brightness(100%);
+    filter: invert(69%) sepia(70%) saturate(1000%) hue-rotate(-50deg) brightness(100%);
 }
