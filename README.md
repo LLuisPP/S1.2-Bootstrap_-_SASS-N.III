@@ -106,7 +106,7 @@ N/A
       <a href="#"><img src="https://github.com/user-attachments/assets/faa28372-8abc-4a0a-8cd4-c7a36e1913d8" alt="downloads" width="200" /></a><br>Exercise 3 downloads<br><br>
     </td>  
     <td align="center">
-      <a href="#"><img src="" alt="Result" width="600" /></a>
+      <a href="#"><img src="https://github.com/user-attachments/assets/acba6290-f68f-4c16-9ff1-ec961f379876" alt="Result" width="600" /></a>
     </td>
   </tr>
 </table>
