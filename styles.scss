@@ -13,8 +13,7 @@ $body-color: $plain;
 
 html {
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 0;
+    overflow-x: hidden;
 }
 
 /************* CONTAINERS *****************/
@@ -26,7 +25,6 @@ html {
     align-items: center;
     row-gap: 10px;
     padding-top:  40px;
-    // border: 3px solid rgb(255, 60, 30);
 }
 
 .navbar {
@@ -279,9 +277,9 @@ html {
 /*************** ACCORDION MENU **************/
 
 .custom-accordion .accordion-button {
-    background-color: #ffffff; /* Color de fondo del botón del acordeón (plegado) */
-    border-color: rgba(153, 39, 39, 0.125); /* Color del borde del acordeón */
-    color: $font; /* Color del texto del botón del acordeón */
+    background-color: #ffffff;
+    border-color: rgba(153, 39, 39, 0.125);
+    color: $font;
 }
 
 .custom-accordion .accordion-button:not(.collapsed) {
