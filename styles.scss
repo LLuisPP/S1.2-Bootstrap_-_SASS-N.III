@@ -1,14 +1,12 @@
-@import "./node_modules/bootstrap/scss/bootstrap.scss";
-
 /************* COLORS *****************/
 
-$font: black;
-$rev_font: white;
+$font: rgb(0, 0, 0);
+$rev_font: rgb(255, 255, 255);
 $font-parag: rgb(167,168,173);
-$plain: white;
+$plain: rgb(255, 255, 255);;
 $primary: rgb(83, 102, 223);
 $secondary: rgb(240,87,90);
-$tertiarry: rgb(36,42,69);
+$tertiary: rgb(36,42,69);
 $body-color: $plain;
 
 html {
@@ -54,12 +52,12 @@ html {
     display: inline-block;
 }
 
-@mixin button ($back: color, $color: $plain) {
+@mixin button ($back: $primary, $color: $plain) {
     background-color: $plain;
     font-size: 12px;
-    color: color;
-    border-color: $plain;
-    border: 2px solid $plain;
+    color: $color;
+    border-color: $back;
+    border: 2px solid $back;
     border-radius:7px;
     padding: 10px;
     padding-left: 30px;
@@ -314,13 +312,13 @@ html {
 }
 
 .bg-footer2 {
-    background-color: $tertiarry;
+    background-color: $tertiary;
     color: $plain;
     }
 
 .footer-nav {
     @include button();
-    background-color: $tertiarry;
+    background-color: $tertiary;
     justify-content: space-between;
     color: $rev_font;
 }
@@ -339,7 +337,7 @@ html {
 
 .footer-button {
     @include button();
-    background-color: $tertiarry;
+    background-color: $tertiary;
     color: $rev_font;
     border: none;
 }
@@ -349,9 +347,9 @@ html {
 }
 
 .social-icon:hover {
-    filter: invert(70%) sepia(70%) saturate(1000%) hue-rotate(-50deg) brightness(100%);
+    filter: color.invert(70%) sepia(70%) saturate(1000%) hue-rotate(-50deg) brightness(100%);
 }
 
 .icon-bookmark:hover {
-    filter: invert(69%) sepia(70%) saturate(1000%) hue-rotate(-50deg) brightness(100%);
+    filter: color.invert(69%) sepia(70%) saturate(1000%) hue-rotate(-50deg) brightness(100%);
 }
