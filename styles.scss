@@ -118,8 +118,9 @@ html {
 
 .detail-shadow-button {
     @extend .button;
-    border: 1px solid $plain;
-    background-color: $plain;
+    color: $font;
+    border: 1px solid rgb(247,247,247);
+    background-color: rgb(247,247,247);
     box-shadow: 1px 5px 3px rgba(0, 0, 0, 0.1);
     padding-left: 20px;
     padding-right: 20px;
