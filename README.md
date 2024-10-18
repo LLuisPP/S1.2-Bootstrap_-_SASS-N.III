@@ -58,7 +58,7 @@ npm install
 `````
 Compile the css file using:
 `````
-npm run build-css
+sass styles.scss styles.css
 `````
 Use watch to refresh on changing values:
 `````
