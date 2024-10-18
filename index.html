@@ -4,47 +4,46 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Luis Prieto"/>
   <title>1.2-Bootstrap_and_SASS.NIII</title>
-  <link rel="stylesheet" href="styles.css" />
-  <script src="./js/validation.js" defer></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
-
-<!-- navbar content -------------------------------------------------------->
-
-<nav class="navbar navbar-expand-sm navbar-light px-5 mb-5 ms-2">
   
-  <a href="#" class="navbar-brand ms-4">
-    <img class="nav-logo ms-5" src="./images/logo-bookmark.svg" alt="logo-bookmark" />
-  </a>
-  <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarContent">
-    <img src="./images/icon-hamburger.svg" alt="icon-hamburger">
-  </button>
-
-  <div class="collapse navbar-collapse justify-content-end text-center col-sm-12 col-md-10 col-lg-10 col-xl-10 text-center">
-    <ul class="navbar-nav align-items-center">
-      <li class="nav-item">
-        <a class="nav-link button" href="#features">FEATURES</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link button" href="#pricing">PRICING</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link button me-3" href="#contact">CONTACT</a>
-      </li>
-      <li class="nav-item">
-        <button class="login-button m-1" id="login-button" type="submit">LOGIN</button>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-<!-- Bookmark manager content -------------------------------------------------------->
-
-<div class="container">
-  <div class="row justify-content-center align-items-center">
+  <!-- navbar content -------------------------------------------------------->
+  
+  <nav class="navbar navbar-expand-sm navbar-light px-5 mb-5 ms-2">
+    
+    <a href="#" class="navbar-brand ms-4">
+      <img class="nav-logo ms-5" src="./images/logo-bookmark.svg" alt="logo-bookmark" />
+    </a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+      <img src="./images/icon-hamburger.svg" alt="icon-hamburger">
+    </button>
+    
+    <div class="collapse navbar-collapse justify-content-end text-center col-sm-12 col-md-10 col-lg-10 col-xl-10 text-center">
+      <ul class="navbar-nav align-items-center">
+        <li class="nav-item">
+          <a class="nav-link button" href="#features">FEATURES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link button" href="#pricing">PRICING</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link button me-3" href="#contact">CONTACT</a>
+        </li>
+        <li class="nav-item">
+          <button class="login-button m-1" id="login-button" type="submit">LOGIN</button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- Bookmark manager content -------------------------------------------------------->
+  
+  <div class="container">
+    <div class="row justify-content-center align-items-center">
     <div class="col-sm-10 col-md-5 col-lg-3 col-xl-5 ms-3  mt-4 mb-5">
       <h2 class="display-7 title ">A Simple Bookmark Manager</h2>
       <p class="paragraph col-sm-10 col-md-8 col-lg-10 col-xl-10">
@@ -63,54 +62,54 @@
 
 <!-- features content -------------------------------------------------------->
 
-  <div class="container justify-content-center mt-5">
-    <div class="col-sm-8 col-md-8 col-lg-6 col-xl-5 text-center">
-      <h2 class="display-7 subtitle" id="features">Features</h2>
-      <p class="paragraph justify-content-center">
-        Our aim is to make it quick and east for you to accwess your favourite websites. Your bookmarks sync between your devices so you can access tjem on the go
-      </p>
-    </div>
+<div class="container justify-content-center mt-5">
+  <div class="col-sm-8 col-md-8 col-lg-6 col-xl-5 text-center">
+    <h2 class="display-7 subtitle" id="features">Features</h2>
+    <p class="paragraph justify-content-center">
+      Our aim is to make it quick and east for you to accwess your favourite websites. Your bookmarks sync between your devices so you can access tjem on the go
+    </p>
   </div>
+</div>
 
-  <nav>
-    <div class="row justify-content-center">
-      <div class="d-flex nav nav-tabs justify-content-center col-sm-4 col-md-4 col-lg-12 col-xl-12 text-center mt-4" id="nav-tab" role="tablist">
-        <button class="nav-link active " id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Simple Bookmarking</button>
-        <button class="nav-link " id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Speedy Searching</button>
-        <button class="nav-link " id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Easy Sharing</button>
+<nav>
+  <div class="row justify-content-center">
+    <div class="d-flex nav nav-tabs justify-content-center col-sm-4 col-md-4 col-lg-12 col-xl-12 text-center mt-4" id="nav-tab" role="tablist">
+      <button class="nav-link active " id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Simple Bookmarking</button>
+      <button class="nav-link " id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Speedy Searching</button>
+      <button class="nav-link " id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Easy Sharing</button>
       </div>
     </div>
   </nav>
-
+  
   <div class="tab-content mb-5" id="nav-tabContent">
     <div class="tab-pane fade show active " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-    
+      
       <!-- TAB 1 -------------------------------------------------------->
-        <div class="container">
-          <div class="row justify-content-center align-items-center">
-            <div class="col-sm-12 col-md-5 col-lg-7 col-xl-5 m-2 me-lg-4 mb-5">
-              <div class="imageLeft ms-5">
-                <img class="img-fluid" src="./images/illustration-features-tab-1.svg" alt="illustration-features-tab-1" />
-              </div>
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-sm-12 col-md-5 col-lg-7 col-xl-5 m-2 me-lg-4 mb-5">
+            <div class="imageLeft ms-5">
+              <img class="img-fluid" src="./images/illustration-features-tab-1.svg" alt="illustration-features-tab-1" />
             </div>
-            <div class="col-sm-10 col-md-5 col-lg-3 col-xl-5 ms-3  mt-4 mb-5">
-              <h2 class="display-7 subtitle">Bookmark in one click</h2>
-              <p class="paragraph">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.
-              </p>
-              <button class="detail-button">More info</button>
-            </div>
+          </div>
+          <div class="col-sm-10 col-md-5 col-lg-3 col-xl-5 ms-3  mt-4 mb-5">
+            <h2 class="display-7 subtitle">Bookmark in one click</h2>
+            <p class="paragraph">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.
+            </p>
+            <button class="detail-button">More info</button>
           </div>
         </div>
       </div>
-      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+    </div>
+    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
       
       <!-- TAB 2 -------------------------------------------------------->
-        <div class="container">
-          <div class="row justify-content-center align-items-center ">
-            <div class="col-sm-12 col-md-5 col-lg-7 col-xl-5 m-2 me-lg-4 mb-5">
-              <div class="imageLeft mx-5">
-                <img class="img-fluid" src="./images/illustration-features-tab-2.svg" alt="illustration-features-tab-1" />
-              </div>
+      <div class="container">
+        <div class="row justify-content-center align-items-center ">
+          <div class="col-sm-12 col-md-5 col-lg-7 col-xl-5 m-2 me-lg-4 mb-5">
+            <div class="imageLeft mx-5">
+              <img class="img-fluid" src="./images/illustration-features-tab-2.svg" alt="illustration-features-tab-1" />
+            </div>
             </div>
             <div class="col-sm-10 col-md-5 col-lg-3 col-xl-5 ms-3  mt-4 mb-5">
               <h2 class="display-7 subtitle">Intelligent Searching</h2>
@@ -122,29 +121,29 @@
         </div>
       </div>
       <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-    
-      <!-- TAB 3 -------------------------------------------------------->
-      <div class="container">
-        <div class="row justify-content-center align-items-center">
-          <div class="col-sm-12 col-md-5 col-lg-7 col-xl-5 m-2 me-lg-4 mb-5">
-            <div class="imageLeft mx-3 ms-">
-              <img class="img-fluid" src="./images/illustration-features-tab-3.svg" alt="illustration-features-tab-1" />
+        
+        <!-- TAB 3 -------------------------------------------------------->
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-sm-12 col-md-5 col-lg-7 col-xl-5 m-2 me-lg-4 mb-5">
+              <div class="imageLeft mx-3 ms-">
+                <img class="img-fluid" src="./images/illustration-features-tab-3.svg" alt="illustration-features-tab-1" />
+              </div>
+            </div>
+            <div class="col-sm-10 col-md-5 col-lg-3 col-xl-5 ms-3  mt-4 mb-5">
+              <h2 class="display-7 subtitle">Share your bookmarks</h2>
+              <p class="paragraph">Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.
+              </p>
+              <button class="detail-button">More info</button>
             </div>
           </div>
-          <div class="col-sm-10 col-md-5 col-lg-3 col-xl-5 ms-3  mt-4 mb-5">
-            <h2 class="display-7 subtitle">Share your bookmarks</h2>
-            <p class="paragraph">Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.
-            </p>
-            <button class="detail-button">More info</button>
-          </div>
         </div>
+        
       </div>
-
     </div>
-  </div>
-
-<!-- Download -------------------------------------------------------->
-
+    
+    <!-- Download -------------------------------------------------------->
+    
     <div class="container justify-content-center mt-5">
       <div class="row justify-content-center">
         <div class="col-sm-12 col-md-10 col-lg-6 col-xl-10 text-center">
@@ -155,71 +154,71 @@
         </div>
       </div>
     </div>
-
-  <div class="container">
-    <div class="row justify-content-center gap-5">
-
-      <div class="card first-card" style="width: 16rem;">
-        <img class="card-image" src="./images/logo-chrome.svg" class="card-img-top" alt="logo-chrome">
-        <div class="card-body">
-          <h5 class="card-title text-center">Add to Chrome</h5>
-          <p class="paragraph text-center">Minimum version 62</p>
-          <div class="list-group list-group-flush">
-            <div class="bg-dots-container">
-              <img class="bg-dots-image" src="./images/bg-dots.svg" alt="bg-dots" >
-            </div>
-            <button href="#" class="detail-button card-button my-1">Add & install Extension</button>
-          </div>
-        </div>
-      </div>
-      
-      <div class="card second-card" style="width: 16rem;">
-        <img class="card-image" src="./images/logo-firefox.svg" class="card-img-top" alt="logo-firefox">
-        <div class="card-body">
-          <h5 class="card-title text-center">Add to Firefox</h5>
-          <p class="paragraph text-center">Minimum version 65</p>
-          <div class="list-group list-group-flush">
-            <div class="bg-dots-container">
-              <img class="bg-dots-image" src="./images/bg-dots.svg" alt="bg-dots">
-            </div>
-            <button href="#" class="detail-button card-button my-1">Add & install Extension</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="card third-card" style="width: 16rem;">
-        <img class="card-image"src="./images/logo-opera.svg" class="card-img-top" alt="logo-opera">
-        <div class="card-body">
-          <h5 class="card-title text-center">Add to Opera</h5>
-          <p class="paragraph text-center">Minimum version 46</p>
-          <div class="list-group list-group-flush">
-            <div class="bg-dots-container">
-              <img class="bg-dots-image" src="./images/bg-dots.svg" alt="bg-dots">
-            </div>
-            <button href="#" class="detail-button card-button my-1">Add & install Extension</button>
-          </div>
-        </div>
-      </div>
-    <div>
-  </div>
-
-<!-- content faq -------------------------------------------------------->
-
-  <div class="container justify-content-center mt-5">
-    <div class="col-sm-8 col-md-8 col-lg-6 col-xl-5 text-center">
-      <h2 class="display-7 subtitle">Frequently Asked Questions</h2>
-      <p class="paragraph justify-content-center">
-        Here are some of our FAQs, if you have any other questions you'd like answered please feel free to email us.
-      </p>
-    </div>
-  </div>
     
-  <div class="container justify-content-center">
-    <div class="row align-items-center justify-content-center w-75">
-      
-      <div class="accordion accordion-flush custom-accordion col-sm-8 col-md-10 col-lg-12 col-xl-12" id="accordionFlushFAQ">
-        <div class="accordion-item custom-accordion">
-          <h2 class="accordion-header" id="flush-headingOne">
+    <div class="container">
+      <div class="row justify-content-center gap-5">
+        
+        <div class="card first-card" style="width: 16rem;">
+          <img class="card-image" src="./images/logo-chrome.svg" class="card-img-top" alt="logo-chrome">
+          <div class="card-body">
+            <h5 class="card-title text-center">Add to Chrome</h5>
+            <p class="paragraph text-center">Minimum version 62</p>
+            <div class="list-group list-group-flush">
+              <div class="bg-dots-container">
+                <img class="bg-dots-image" src="./images/bg-dots.svg" alt="bg-dots" >
+              </div>
+              <button href="#" class="detail-button card-button my-1">Add & install Extension</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card second-card" style="width: 16rem;">
+          <img class="card-image" src="./images/logo-firefox.svg" class="card-img-top" alt="logo-firefox">
+          <div class="card-body">
+            <h5 class="card-title text-center">Add to Firefox</h5>
+            <p class="paragraph text-center">Minimum version 65</p>
+            <div class="list-group list-group-flush">
+              <div class="bg-dots-container">
+                <img class="bg-dots-image" src="./images/bg-dots.svg" alt="bg-dots">
+              </div>
+              <button href="#" class="detail-button card-button my-1">Add & install Extension</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card third-card" style="width: 16rem;">
+          <img class="card-image"src="./images/logo-opera.svg" class="card-img-top" alt="logo-opera">
+          <div class="card-body">
+            <h5 class="card-title text-center">Add to Opera</h5>
+            <p class="paragraph text-center">Minimum version 46</p>
+            <div class="list-group list-group-flush">
+              <div class="bg-dots-container">
+                <img class="bg-dots-image" src="./images/bg-dots.svg" alt="bg-dots">
+              </div>
+              <button href="#" class="detail-button card-button my-1">Add & install Extension</button>
+            </div>
+          </div>
+        </div>
+        <div>
+        </div>
+
+        <!-- content faq -------------------------------------------------------->
+        
+        <div class="container justify-content-center mt-5">
+          <div class="col-sm-8 col-md-8 col-lg-6 col-xl-5 text-center">
+            <h2 class="display-7 subtitle">Frequently Asked Questions</h2>
+            <p class="paragraph justify-content-center">
+              Here are some of our FAQs, if you have any other questions you'd like answered please feel free to email us.
+            </p>
+          </div>
+        </div>
+        
+        <div class="container justify-content-center">
+          <div class="row align-items-center justify-content-center w-75">
+            
+            <div class="accordion accordion-flush custom-accordion col-sm-8 col-md-10 col-lg-12 col-xl-12" id="accordionFlushFAQ">
+              <div class="accordion-item custom-accordion">
+                <h2 class="accordion-header" id="flush-headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
               What is Bookmark?
             </button>
@@ -260,7 +259,7 @@
           </div>
         </div>
       </div>
-
+      
       <div class="row justify-content-center">
         <button class="detail-button col-sm-4 col-md-3 col-lg-2 col-xl-2 btn btn-primary mt-5" href="#">
           More Info
@@ -269,11 +268,11 @@
     </div>
   </div>
   
-<!-- footer  -------------------------------------------------------->
-
+  <!-- footer  -------------------------------------------------------->
+  
   <footer class="footer">
     <div class="row bg-footer text-center justify-content-center mt-5">
-
+      
       <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4">
         <p class="footer-subtitle mt-5">
           35.000+ ALREADY JOINED
@@ -282,16 +281,16 @@
         <form class="row mt-3 g-3 needs-validation" novalidate>
           <div class="d-flex justify-content-center gap-3 my-4">
             <div class="position-relative">
-            <input type="email" class="form-control" id="InputEmail1" required aria-describedby="emailHelp">
-            <div class="invalid-feedback valid-error">
-              Whoops, make sure it's an email.
-            </div>
-          </div class="justify-content-center">
-          <button type="submit" class="submit-button btn btn-primary" id="contact">Contact Us</button>
-        </div>
-      </form>
+              <input type="email" class="form-control" id="InputEmail1" required aria-describedby="emailHelp">
+              <div class="invalid-feedback valid-error">
+                Whoops, make sure it's an email.
+              </div>
+            </div class="justify-content-center">
+            <button type="submit" class="submit-button btn btn-primary" id="contact">Contact Us</button>
+          </div>
+        </form>
       </div>
-
+      
       <div class=" bg-footer2 d-flex justify-content-between">
         <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 justify-content-start my-3">
           <img class="bookmark-logo" fill="white" src="images/logo-bookmark2.png" alt="logo-bookmark" />
@@ -306,6 +305,9 @@
       </div>
     </div>
   </footer>
+  
+  <script src="./js/validation.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 </html>
