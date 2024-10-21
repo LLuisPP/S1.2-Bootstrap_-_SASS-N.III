@@ -10,7 +10,10 @@ In this exercise, you will have to create a layout clone of another one given as
         <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" width="35" height="35"/></a><br>Html5
       </td>
       <td>
-        <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" alt="CSS3" width="35" height="35"/></a><br>Sass<br>1.80.1
+        <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" width="35" height="35"/></a><br>CSS3<br>
+      </td>
+      <td>
+        <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" alt="SASS" width="35" height="35"/></a><br>Sass<br>1.80.1
       </td>
       <td>
         <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="CSS3" width="35" height="35"/></a><br>Bootstrap<br>5.3.3
