@@ -41,7 +41,7 @@ html {
 }
 
 .navbar {
-    margin-right: 15%;
+    margin-right: 20%;
     justify-content: flex-end;
     justify-content: space-between;
 }
@@ -331,13 +331,15 @@ html {
 .bg-footer2 {
     background-color: $tertiary;
     color: $plain;
-    }
+}
 
 .footer-nav {
     @extend .button;
     background-color: $tertiary;
     justify-content: space-between;
     color: $rev_font;
+    display: flex;
+    align-items: center;
 }
 
 .footer-subtitle {
