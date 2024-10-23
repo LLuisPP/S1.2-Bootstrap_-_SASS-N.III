@@ -38,7 +38,7 @@ npm install bootstrap
 Clone this repository:
   
 `````
-git clone <Repo address> /FolderName
+git clone https://github.com/LLuisPP/S1.2-Bootstrap_and_SASS-N.III Sprint1-2-Bootstrap
 `````
 
 Navigate to cloned folder:
