@@ -44,7 +44,7 @@ git clone https://github.com/LLuisPP/S1.2-Bootstrap_and_SASS-N.III Sprint1-2-Boo
 Navigate to cloned folder:
 
 `````
-cd ../FolderName
+cd Sprint1-2-Bootstrap
 `````
 </div>
 
