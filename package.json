@@ -8,11 +8,19 @@
     "build-css": "sass --source-map ./styles.scss ./styles.css",
     "watch-css": "sass --watch ./styles.scss:./styles.css"
   },
-  "keywords": [],
+  "keywords": [
+    "css",
+    "sass",
+    "mobile-first",
+    "responsive",
+    "frontend",
+    "framework",
+    "web"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.3",
-    "sass": "^1.80.1"
+    "sass": "^1.80.3"
   }
 }
