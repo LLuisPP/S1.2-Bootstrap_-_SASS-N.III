@@ -106,7 +106,9 @@ N/A
       <br><a href="#"><img src="https://github.com/user-attachments/assets/e730f6f6-3157-41ac-9017-439d17ce6dba" alt="landinpage" width="200" /></a><br>Exercise 1 layout<br>
       <a href="#"><img src="https://github.com/user-attachments/assets/2bdfbb3b-7d90-472b-be8c-b93e86196f45" alt="features" width="200" /></a><br>Exercise 2 features<br>
       <a href="#"><img src="https://github.com/user-attachments/assets/4aaa253e-7d02-4453-82a9-62ab4a40fa04" alt="downloads" width="200" /></a><br>Exercise 3 downloads<br>
-      <a href="#"><img src="https://github.com/user-attachments/assets/faa28372-8abc-4a0a-8cd4-c7a36e1913d8" alt="downloads" width="200" /></a><br>Exercise 3 downloads<br><br>
+      <a href="#"><img src="https://github.com/user-attachments/assets/faa28372-8abc-4a0a-8cd4-c7a36e1913d8" alt="FAQ" width="200" /></a><br>Exercise 4 FAQ<br><br>
+      <a href="#"><img src="https://github.com/user-attachments/assets/c8b26d86-5c60-419f-8ceb-018d4ea95a6c" alt="footer" width="200" /></a><br>Exercise 5 footer<br><br>
+      <a href="#"><img src="https://github.com/user-attachments/assets/60e1ffe6-a2ba-4dcd-a8f4-fb521d85b6a1" alt="mobileview" width="200" /></a><br>Exercise 6 mobileview<br><br>
     </td>  
     <td align="center">
       <a href="#"><img src="https://github.com/user-attachments/assets/acba6290-f68f-4c16-9ff1-ec961f379876" alt="Result" width="600" /></a>
@@ -114,6 +116,7 @@ N/A
   </tr>
 </table>
 </div>
+<img width="217" alt="Captura de pantalla 2024-10-24 a las 8 03 46" src="https://github.com/user-attachments/assets/60e1ffe6-a2ba-4dcd-a8f4-fb521d85b6a1">
 
 <h2>🤝 Contributions</h2>
 
