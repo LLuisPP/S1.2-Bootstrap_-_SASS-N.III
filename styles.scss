@@ -24,8 +24,8 @@ $tertiary: #242a45;
 $body-color: #ffffff;
 
 html {
-    max-width: 1200px;
-    margin: 0 auto;
+    // max-width: 1200px;
+    // margin: 0 auto;
     overflow-x: hidden;
 }
 
@@ -324,7 +324,6 @@ html {
 
 .bg-footer {
     background-color: $primary;
-    max-width: 100%;
     color: $plain;
 }
 

@@ -17,7 +17,7 @@
     "framework",
     "web"
   ],
-  "author": "",
+  "author": "Luis Prieto",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.3",
