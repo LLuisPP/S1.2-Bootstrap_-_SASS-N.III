@@ -116,7 +116,6 @@ N/A
   </tr>
 </table>
 </div>
-<img width="217" alt="Captura de pantalla 2024-10-24 a las 8 03 46" src="https://github.com/user-attachments/assets/60e1ffe6-a2ba-4dcd-a8f4-fb521d85b6a1">
 
 <h2>🤝 Contributions</h2>
 
