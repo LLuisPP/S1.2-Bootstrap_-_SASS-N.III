@@ -94,10 +94,10 @@ html {
     @extend .button;
     background-color: $secondary;
     border: 2px solid $secondary;
-    color: $rev_font;
+    color: $rev_font !important;
 }
 .login-button:hover {
-    color: $secondary;
+    color: $secondary !important;
     border-color: $secondary;
     background-color: $plain;
 }

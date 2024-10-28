@@ -9,56 +9,60 @@
   <link rel="stylesheet" href="./styles.css" />
 </head>
 
-<body>
+<body class="p-3">
   
   <!-- navbar content -------------------------------------------------------->
   
-  <nav class="navbar navbar-expand-sm navbar-light px-5 mb-5 ms-2 container-fluid">
-    
-    <a href="#" class="navbar-brand ms-4">
-      <img class="nav-logo ms-5" src="./images/logo-bookmark.svg" alt="logo-bookmark" />
-    </a>
-    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarContent">
-      <img src="./images/icon-hamburger.svg" alt="icon-hamburger">
-    </button>
-    
-    <div class="collapse navbar-collapse justify-content-end text-center col-sm-12 col-md-10 col-lg-10  text-center">
-      <ul class="navbar-nav align-items-center">
-        <li class="nav-item">
-          <a class="nav-link button" href="#features">FEATURES</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link button" href="#pricing">PRICING</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link button me-3" href="#contact">CONTACT</a>
-        </li>
-        <li class="nav-item">
-          <button class="login-button m-1" id="login-button" type="submit">LOGIN</button>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-lg navbar-light ms-5">
+    <div class="container ps-3">
+      <a class="navbar-brand ms-5" href="#">
+        <img src="./images/logo-bookmark.svg" alt="Bookmark Logo" class="nav-logo">
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <img src="./images/icon-hamburger.svg" alt="Menu">
+      </button>
+  
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav text-center">
+          <li class="nav-item">
+            <a class="nav-link button" href="#features">FEATURES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link button" href="#pricing">PRICING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link button me-3" href="#contact">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link login-button px-4" href="#">LOGIN</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
-  
+
   <!-- Bookmark manager content -------------------------------------------------------->
-  
+
+<section class="hero py-2">
   <div class="container">
-    <div class="row justify-content-center align-items-center">
-    <div class="col-sm-10 col-md-5 col-lg-3 ms-3  mt-4 mb-5">
-      <h2 class="display-7 title ">A Simple Bookmark Manager</h2>
-      <p class="paragraph col-sm-10 col-md-8 col-lg-10 ">
-        A clean and simple interface to organize your favoruite websites. Open a new browser tab and see yor sites load instantly. Try it for free.
-      </p>
-      <button class="detail-button">Get it on Chrome</button>
-      <button class="detail-shadow-button">Get it on Firefox</button>
-    </div>
-    <div class="col-sm-12 col-md-5 col-lg-7 m-2 me-lg-4 mb-5">
-      <div class="imageRight">
-        <img class="img-fluid" src="./images/illustration-hero.svg" alt="illustration-hero" />
+    <div class="row align-items-center">
+      <div class="col-lg-6 order-lg-2">
+        <div class="imageRight">
+          <img src="./images/illustration-hero.svg" alt="illustration-hero" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-6 order-lg-1 py-5">
+        <h1 class="display-4 title mb-4">A Simple Bookmark Manager</h1>
+        <p class="paragraph mb-4">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+        <div class="d-flex gap-3">
+          <button class="detail-button">Get it on Chrome</button>
+          <button class="detail-shadow-button">Get it on Firefox</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
+</section>
 
 <!-- features content -------------------------------------------------------->
 
